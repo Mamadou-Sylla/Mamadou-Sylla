@@ -1,0 +1,310 @@
+/*Responsivité pour Desktop*/
+@media screen and (min-width:1024px){
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+.container{
+    width: 60%;
+    height: 610px;
+    margin-left: 20%;
+    margin-top: 5px;
+}
+.section{
+    background-image:url("Images/img-bg.jpg");
+    background-repeat: no-repeat;
+    height: 530px;
+    width: 100%;
+    border: 0.5px grey solid;
+    margin-top: none;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #1e4852;
+}
+.logo{
+    width: 15%;
+    height: 100px;
+    float: left;
+    background-image: url("Images/logo-QuizzSA.png");
+    background-size: 40%;
+    background-position: 30px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: -8px;
+}
+.title{
+    width: 85%;
+    height: 100px;
+    margin-left:-60px;
+    float: left;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.formulaire{
+    width: 50%;
+    height: 300px;
+    background-color: white;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.wrapper{
+    width: 100%;
+    height: 50px;
+    background-color: #80d0d0;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+#item{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#login, #password{
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 8px 8px 8px 8px;
+}
+#login{
+    background-image: url("Images/Icônes/ic-login.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 320px;
+}
+#password{
+    background-image: url("Images/Icônes/icone-password.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 320px;
+}
+.connect{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 40%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 30px;
+    color: white;
+    background-color: #80d0d0;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: grey;
+    font-size: 15px;
+}
+}
+/*Responsivité pour Tablette*/
+@media screen and (min-width:768px) and (max-width:1023px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: gray;
+    }
+    .container{
+        width: 60%;
+        height: 610px;
+        margin-left: 20%;
+        margin-top: 5px;
+    }
+    .section{
+        background-image:url("Images/img-bg.jpg");
+        background-repeat: no-repeat;
+        height: 530px;
+        width: 100%;
+        border: 0.5px grey solid;
+        margin-top: none;
+    }
+    .header{
+        width: 100%;
+        height: 80px;
+        background-color: #1e4852;
+    }
+    .logo{
+        width: 15%;
+        height: 100px;
+        float: left;
+        background-image: url("Images/logo-QuizzSA.png");
+        background-size: 40%;
+        background-position: 30px;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        margin-top: -8px;
+    }
+    .title{
+        width: 85%;
+        height: 100px;
+        margin-left:-40px;
+        float: left;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+    }
+    .formulaire{
+        width: 50%;
+        height: 300px;
+        background-color: white;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .wrapper{
+        width: 100%;
+        height: 50px;
+        background-color: #80d0d0;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #item{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    #login, #password{
+        width: 90%;
+        height: 40px;
+        margin-left: 5%;
+        margin-top: 5%;
+        border-radius: 8px 8px 8px 8px;
+    }
+    #login{
+        background-image: url("Images/Icônes/ic-login.png");
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: 320px;
+    }
+    #password{
+        background-image: url("Images/Icônes/icone-password.png");
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: 320px;
+    }
+    .connect{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 40%;
+        height: 40px;
+        border-radius: 8px;
+        font-size: 18px;
+        color: white;
+        background-color: #80d0d0;
+    }
+    a{
+        text-decoration: none;
+        margin-left: 5px;
+        color: grey;
+        font-size: 10px;
+    }
+}
+/*Responsivité pour Smartphone*/
+@media screen and (min-width:479px) and (max-width:767px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: gray;
+    }
+    .container{
+        width: 60%;
+        height: 610px;
+        margin-left: 20%;
+        margin-top: 5px;
+    }
+    .section{
+        background-image:url("Images/img-bg.jpg");
+        background-repeat: no-repeat;
+        height: 530px;
+        width: 100%;
+        border: 0.5px grey solid;
+        margin-top: none;
+    }
+    .header{
+        width: 100%;
+        height: 80px;
+        background-color: #1e4852;
+    }
+    .logo{
+        width: 15%;
+        height: 100px;
+        float: left;
+        background-image: url("Images/logo-QuizzSA.png");
+        background-size: 40%;
+        background-position: 30px;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        margin-top: -8px;
+    }
+    .title{
+        width: 85%;
+        height: 100px;
+        float: left;
+        text-align: center;
+        color: white;
+        font-size:13px;
+        margin-top: 25px;
+    }
+    .formulaire{
+        width: 50%;
+        height: 300px;
+        background-color: white;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .wrapper{
+        width: 100%;
+        height: 50px;
+        background-color: #80d0d0;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #item{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    #login, #password{
+        width: 90%;
+        height: 40px;
+        margin-left: 5%;
+        margin-top: 5%;
+        border-radius: 8px 8px 8px 8px;
+    }
+    #login{
+        background-image: url("Images/Icônes/ic-login.png");
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: 320px;
+    }
+    #password{
+        background-image: url("Images/Icônes/icone-password.png");
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: 320px;
+    }
+    .connect{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 80%;
+        height: 40px;
+        border-radius: 8px;
+        font-size: 20px;
+        color: white;
+        background-color: #80d0d0;
+    }
+    a{
+        text-decoration: none;
+        margin-left: 10px;
+        color: grey;
+        font-size: 15px;
+        margin-bottom:10px;
+    }
+}
