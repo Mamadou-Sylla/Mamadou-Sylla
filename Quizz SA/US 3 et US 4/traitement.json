@@ -1,0 +1,53 @@
+{
+   "admin":
+      [
+         {
+            "login" : "admin",
+            "password" : "admin",
+            "prenom":"Momo",
+            "nom":"Sylla",
+            "avatar":"admin.jpeg"
+         },
+         {
+            "login" : "admin1",
+            "password" : "admin1",
+            "prenom":"Dame",
+            "nom":"Gueye",
+            "avatar":"admin1.jpeg"
+           
+         },
+         {
+            "login" : "admin2",
+            "password" : "admin2",
+            "prenom":"Mamadou",
+            "nom":"Niang",
+            "avatar":"admin2.jpeg"
+         }
+      ],
+
+      "joueur":
+      [
+         {
+            "login" : "joueur",
+            "password" : "joueur",
+            "prenom":"Dada",
+            "nom":"Diop",
+            "avatar":"joueur.jpeg"
+         },
+         {
+            "login" : "joueur1",
+            "password" : "jouer1",
+            "prenom":"Dodo",
+            "nom":"Lo",
+            "avatar":"joueur1.jpeg"
+         },
+         {
+            
+            "login" : "joueur2",
+            "password" : "jouer2",
+            "prenom":"Didi",
+            "nom":"Ndiaye",
+            "avatar":"joueur2.jpeg"
+         }
+      ]
+}
