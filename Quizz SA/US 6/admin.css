@@ -1,0 +1,180 @@
+@import url('https://fonts.cdnfonts.com/css/helveticaneue-2');
+@import url('https://fonts.cdnfonts.com/css/open-sans');
+@import url('https://fonts.cdnfonts.com/css/myriad-pro');
+/*Responsivité pour Desktop*/
+@media screen and (min-width:1024px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 100%;
+        height: 610px;
+        margin-top: 5px;
+    }
+    .section{
+        background-image:url("Images/img-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 535px;
+        width: auto;
+        border: 0.5px grey solid;
+        margin-top: none;
+    }
+    .header{
+        width: 100%;
+        height: 80px;
+        background-color: #1e4852;
+    }
+    .logo{
+        width: 15%;
+        height: 100px;
+        float: left;
+        background-image: url("Images/logo-QuizzSA.png");
+        background-size: 25%;
+        background-position: 30px;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        margin-top: -8px;
+    }
+    .title{
+        width: 85%;
+        height: 80px;
+        margin-left:-60px;
+        float: left;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        font-family: 'open-sans';
+    }
+    .cadre{
+        width: 97%;
+        height: 520px;
+        background-color: white;
+        margin-left: 20px;
+        margin-top:5px;
+    }
+    .wrapper{
+        width: 100%;
+        height: 80px;
+        background-color: #51bfd0;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        margin-top:5px;
+
+    }
+    #item{
+        text-align: center;
+        font-size: 25px;
+        padding-top:25px;
+        font-family: "helveticaneue-2";
+    }
+    button{
+        float:right;
+        width: 10%;
+        height: 30px;
+        font-size: 20px;
+        margin-top:-30px;
+        color: white;
+        margin-right:20px;
+        font-family:" myriad-pro";
+        background-color: #3addd6;
+    }
+    .bloc{
+        width: 100%;
+        height: 440px;
+        float:left;
+    }
+    .bloc-profil{
+        width: 35%;
+        height: 350px;
+        border-radius: 1%;
+        text-align: center;
+        float:left;
+        margin-top:3%;
+        margin-left: 8%;
+        box-shadow: 1px 1px 12px rgb(68, 67, 67);
+    }
+    .bloc-item{
+        width: 45%;
+        height: 400px;
+        float:right;
+        margin-top:1.5%;
+        margin-right: 8%;
+        border-radius: 1%;
+        box-shadow: 1px 1px 12px rgb(68, 67, 67);
+    }
+    .avatar{
+        width: 100%;
+        height: 130px;
+        background-color:#51bfd0;
+        border-radius: 1% 1% 0% 0%;
+    }
+    .profil{
+        width:20%;
+        height:90px;
+        margin-left:30px;
+        float: left;
+        margin-top: 25px;
+        background-image: url("Images/Icônes/user.png");
+        background-repeat: no-repeat;
+        background-size: 98%;
+        border-radius: 50%;
+        border:2px solid #818181;
+    }
+   
+    .user{
+        width:60%;
+        height:80px;
+        margin-right:5px;
+        float: left;
+        margin-top: 25px;
+        margin-left: 10px;
+       
+        
+    }
+    #user{
+        font-family: "myriad-pro";
+        padding-top: 20px;
+       margin-left: -40px;
+        color:white;
+    }
+    ul{
+        margin-top: 10px;
+        list-style-type: none;     
+        display: block ;
+        text-align:left;
+        
+    }
+    ul>li:hover{
+        border-left: 3px solid green;
+        cursor: pointer;
+    }
+    ul>li>a:hover{
+        color:#e56946;
+    }
+    ul>li>a{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: 'calibri';
+        color:#818181;
+    }
+    ul>li{
+        padding: 5px;
+        display: block ;
+    }
+    #lien, #link{
+        float: right;
+        margin-right:10px;
+        margin-top:10px;
+    }
+    ul:visited{
+        color: chocolate;
+    }
+}
+    /*Responsivité pour Tablette*/
+   
+    /*Responsivité pour Smartphone*/
+   
