@@ -1,0 +1,14 @@
+/*Responsivité pour Desktop*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 90%;
+        height: 400px;
+        border:1px solid red;
+    }
+    table{
+        border:1px solid red;
+    }
+    

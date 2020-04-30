@@ -1,0 +1,108 @@
+/*Responsivité pour Desktop*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+   h2{
+       color:#51bfd0;
+       margin-top:10px;
+       margin-left:30px;
+   }
+   .container{
+    width: 100%;
+    height: 320px;
+   }
+   .formulaire{
+    border:2px solid #51bfd0;
+    border-radius: 2%;
+    width: 95%;
+    height: 320px;
+    margin-left: 2%;
+   }
+   label{
+    margin-left: 30px;
+   }
+   .input{
+    height: 80px;
+    margin-top:15px;
+    width: 60%;
+    border: none;
+    background-color:  #e9e9e9;
+   }
+   #howmuch{
+       width: 10%;
+       height: 25px;
+       background-color:  #e9e9e9;
+       border: none;
+   }
+   select{
+    width: 60%;
+    height: 25px;
+    background-color:  #e9e9e9;
+   }
+   #reponse{
+    width: 60%;
+    height: 25px;
+    background-color:  #e9e9e9;
+    border: none;
+   }
+   #enregistrer{
+       float: right;
+       margin-top: 20px;
+       margin-right:5px;
+       height: 30px;
+       font-size: 15px;
+       color: white;
+       background-color: #51bfd0;
+   }
+   .Type_de_réponse{
+    width: 100%; 
+    height: 35px;
+   }
+   .liste_reponse{
+       width: 90%;
+       height: 35px;
+       float: left;
+   }
+   #A45{width: 100%;}
+   .section_reponse{
+       width: 90%;
+       height: 30px;
+   }
+   .reponse{
+    width: 90%;
+    height: 30px;
+    float: left;
+   }
+  #AddInput{
+      background-color: white;
+      width: 30px;
+      height: 25px;
+      margin-top: 2px;
+      margin-right: 50px;
+      background-image: url("Images/Icônes/ic-ajout-réponse.png");
+      background-repeat: no-repeat;
+      border: none;
+      overflow: hidden;
+      background-size: 23px;
+      border-radius: 1px;
+  }
+  #RemoveInput{
+    background-color: white;
+    width: 30px;
+    height: 25px;
+    margin-right: 50px;
+    background-image: url("Images/Icônes/ic-supprimer.png");
+    border: none;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 15px;
+    border-radius: 1px;
+  }
+  .input_2{
+      width: 60%;
+      height: 25px;
+      margin-top: 5px;
+      background-color:  #e9e9e9;
+      border:none;
+  }
