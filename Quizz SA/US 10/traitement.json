@@ -6,6 +6,13 @@
             "login": "momo",
             "password": "mosylla",
             "avatar": "IMG-20171005-WA0049.jpg"
+        },
+        {
+            "prenom": "Pa Djiby",
+            "nom": "Niang",
+            "login": "admin",
+            "password": "admin",
+            "avatar": null
         }
     ],
     "joueur": [
@@ -29,6 +36,20 @@
             "login": "msylla",
             "password": "sylla",
             "avatar": null
+        },
+        {
+            "prenom": "Pa Djiby",
+            "nom": "Niang",
+            "login": "padjiby",
+            "password": "niang",
+            "avatar": null
+        },
+        {
+            "prenom": "Mamadou",
+            "nom": "Sylla",
+            "login": "momo",
+            "password": "sylla",
+            "avatar": "profil.jpeg"
         }
     ]
 }
